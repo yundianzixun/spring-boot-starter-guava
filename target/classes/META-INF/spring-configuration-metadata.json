@@ -1,0 +1,54 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "name": "guava.cache.config",
+      "type": "com.itunion.guava.config.GuavaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.concurrency-level",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.expire-after-access-duration",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.expire-after-write-duration",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.initial-capacity",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.maximum-size",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.maximum-weight",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.itunion.guava.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.refresh-duration",
+      "type": "java.lang.Long"
+    }
+  ]
+}
