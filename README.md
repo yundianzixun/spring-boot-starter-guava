@@ -1,6 +1,6 @@
 # 简介
 
-该项目主要利用Spring boot2.x + Guava  实现数据缓存，并使用RateLimiter做秒杀限流示例Demo。
+该项目主要利用Spring boot2.x 集成 Guava  实现数据缓存，并使用RateLimiter做秒杀限流示例Demo。
 
 * Guava是一种基于开源的Java库，其中包含谷歌正在由他们很多项目使用的很多核心库。这个库是为了方便编码，并减少编码错误。这个库提供用于集合，缓存，支持原语，并发性，常见注解，字符串处理，I/O和验证的实用方法。
 
@@ -274,7 +274,7 @@ CacheController.java
     }
 ```
 
-#### 第七步：RateLimiter令牌限流服务测试
+#### 第七步：RateLimiter令牌限流服务测试结果
 ![RateLimiter令牌限流.jpg](https://upload-images.jianshu.io/upload_images/8122772-478333058a35bc27.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 备注：由于手速原因可以看到每秒超过令牌个数的直接返回“呜呜呜，竟然限制我！！！”，说明有效果。
