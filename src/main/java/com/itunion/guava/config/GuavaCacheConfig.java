@@ -12,7 +12,7 @@ import org.springframework.context.annotation.DependsOn;
 import java.util.concurrent.TimeUnit;
 
 /**
-* Created by lin on 19/3/5.
+* Created by lin on 19/3/14.
 */
 @EnableConfigurationProperties(GuavaProperties.class)
 @EnableCaching

@@ -3,7 +3,7 @@ package com.itunion.guava.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Created by lin on 19/3/5.
+ * Created by lin on 19/3/14.
  */
 @ConfigurationProperties(prefix = "guava.cache.config")
 public class GuavaProperties {

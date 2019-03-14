@@ -25,10 +25,6 @@ public class CacheController {
     @RequestMapping(value = "getByCache", method = RequestMethod.GET)
     @ResponseBody
     public String getByCache() {
-        RateLimiter rateLimiter = RateLimiter.create(2);
-        System.out.println(rateLimiter.acquire(5));
-        System.out.println(rateLimiter.acquire(2));
-        System.out.println(rateLimiter.acquire(1));
         Long startTime = System.currentTimeMillis();
         Map<String,String>  map = cacheGuavaService.getUserCache();
         Long endTime = System.currentTimeMillis();
